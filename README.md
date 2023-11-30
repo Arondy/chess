@@ -10,3 +10,5 @@ Game components contain classes for chess clock, players and history in algebrai
 Game field uses a matrix 8x8 of ptrs to the `Figure`. It has functions for saving/loading a game by json and making a move.
 ### game_graphics
 Has a `render()` function for drawing the game window.
+### tests
+Contains tests for `GameState` class, which check correctness of various game moves. It uses Catch2.
